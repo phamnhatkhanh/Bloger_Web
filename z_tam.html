@@ -1,101 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- 
-    https://www.youtube.com/watch?v=CrSC1ZA9j0M&list=PLt5nFcZSSiWVptXtYJssP6K3HoSl0cp-O&index=30&t=3903s
-    
-    1.do each element (linear) but first build frames(full tag) -> design
-    2.comined watch video
-! base on path video BUT i first build.
- -->
-
-<!--header
-        logo nav icon 
-       // inline 
-    -->
-
-
-<!--content
-        background introduction
-        featured item
-        category, popular 
-        content post
-
-    -->
-
-<!--footer
-        about news instagram
-        follow us
-    -->
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blooger_Web</title>
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="./css/all.css">
-
-
-    <!-- --------- Owl-Carousel ------------------->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <!-- if not have link -> div not sort to row  -->
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-
-    <!-- ------------ AOS Library ------------------------- -->
-    <link rel="stylesheet" href="./css/aos.css">
-
-    <!-- Custom Style   -->
-    <link rel="stylesheet" href="./css/style.css">
-
-</head>
-
-<body>
-
-    <!-- ----------------------------  Navigation ---------------------------------------------- -->
- 
-    <nav class="nav">
-        <div class="nav-menu flex-row">
-            <div class="nav-brand">
-                <a href="#" class="text-gray">Blooger</a>
-            </div>
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-link">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Category</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Archive</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Pages</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 <!----------------------------- Main Site Section ------------------------------>
 
 <main>
@@ -110,17 +12,13 @@
         </div>
     </section>
 
-    <!------------x----------- Site Title 1:18:00----------x----------->
+    <!------------x----------- Site Title ----------x----------->
 
     <!-- --------------------- Blog Carousel ----------------- -->
 
     <section>
         <div class="blog">
             <div class="container">
-                <div class="owl-navigation">
-                    <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                    <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
-                </div>
                 <div class="owl-carousel owl-theme blog-post">
                     <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
                         <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
@@ -155,9 +53,9 @@
                         </div>
                     </div>
                 </div>
-                
+                <div>
+                </div>
             </div>
-        </div>
     </section>
 
     <!-- ----------x---------- Blog Carousel --------x-------- -->
@@ -167,13 +65,12 @@
     <section class="container">
         <div class="site-content">
             <div class="posts">
-
                 <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                     <div class="post-image">
                         <div>
                             <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
                         </div>
-                        <div class="post-info">
+                        <div class="post-info flex-row">
                             <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                             <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span>
                             <span>2 Commets</span>
@@ -191,13 +88,12 @@
                     </div>
                 </div>
                 <hr>
-
                 <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                     <div class="post-image">
                         <div>
                             <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
                         </div>
-                        <div class="post-info">
+                        <div class="post-info flex-row">
                             <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                             <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 16, 2019</span>
                             <span>7 Commets</span>
@@ -215,13 +111,12 @@
                     </div>
                 </div>
                 <hr>
-
                 <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                     <div class="post-image">
                         <div>
                             <img src="./assets/Blog-post/blog3.png" class="img" alt="blog1">
                         </div>
-                        <div class="post-info">
+                        <div class="post-info flex-row">
                             <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                             <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 19, 2019</span>
                             <span>5 Commets</span>
@@ -238,13 +133,12 @@
                     </div>
                 </div>
                 <hr>
-
                 <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                     <div class="post-image">
                         <div>
                             <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
                         </div>
-                        <div class="post-info">
+                        <div class="post-info flex-row">
                             <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                             <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2019</span>
                             <span>12 Commets</span>
@@ -268,30 +162,29 @@
                     <a href="#"><i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
-
             <aside class="sidebar">
                 <div class="category">
                     <h2>Category</h2>
                     <ul class="category-list">
-                        <li class="list-items " data-aos="fade-left" data-aos-delay="100">
+                        <li class="list-items" data-aos="fade-left" data-aos-delay="100">
                             <a href="#">Software</a>
-                            <a>(05)</a>
+                            <span>(05)</span>
                         </li>
                         <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                             <a href="#">Techonlogy</a>
-                            <a>(02)</a>
+                            <span>(02)</span>
                         </li>
                         <li class="list-items" data-aos="fade-left" data-aos-delay="300">
                             <a href="#">Lifestyle</a>
-                            <a>(07)</a>
+                            <span>(07)</span>
                         </li>
                         <li class="list-items" data-aos="fade-left" data-aos-delay="400">
                             <a href="#">Shopping</a>
-                            <a>(01)</a>
+                            <span>(01)</span>
                         </li>
                         <li class="list-items" data-aos="fade-left" data-aos-delay="500">
                             <a href="#">Food</a>
-                            <a>(08)</a>
+                            <span>(08)</span>
                         </li>
                     </ul>
                 </div>
@@ -302,7 +195,7 @@
                             <div>
                                 <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
                             </div>
-                            <div class="post-info ">
+                            <div class="post-info flex-row">
                                 <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
                                     2019</span>
                                 <span>2 Commets</span>
@@ -336,6 +229,7 @@
                                 <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
                                     2019</span>
                                 <span>2 Commets</span>
+
                             </div>
                         </div>
                         <div class="post-title">
@@ -377,7 +271,7 @@
                     <h2>Newsletter</h2>
                     <div class="form-element">
                         <input type="text" class="input-element" placeholder="Email">
-                        <button class="form-btn">Subscribe</button>
+                        <button class="btn form-btn">Subscribe</button>
                     </div>
                 </div>
                 <div class="popular-tags">
@@ -399,79 +293,61 @@
 
     <!-- -----------x---------- Site Content -------------x------------>
 
-
-    <!-- --------------------------- Footer ---------------------------------------- -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
-                <h2>About us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
-                    iure, autem nulla tenetur repellendus.</p>
-            </div>
-            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
-                <h2>Newsletter</h2>
-                <p>Stay update with our latest</p>
-                <div class="form-element">
-                    <input type="text" placeholder="Email" />
-                    <span><i class="fas fa-chevron-right"></i></span>
-                </div>
-            </div>
-            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
-                <h2>Instagram</h2>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
-                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
-                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
-                </div>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
-                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
-                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
-                </div>
-            </div>
-            <div class="follow" data-aos="fade-left" data-aos-delay="200">
-                <h2>Follow us </h2>
-                <p>Let us be social and follow us</p>
-                <div>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="rights flex-row">
-            <h4 class="text-gray">
-                Copyright ©2019 All rights reserved | made by
-                <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
-                    Channel</a>
-            </h4>
-        </div>
-        <div class="move-up">
-            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
-        </div>
-    </footer>
-
-    <!---------------x------------- Footer --------------------x------------------- -->
-
 </main>
 
 <!---------------x------------- Main Site Section ---------------x-------------->
 
 
-    <!-- Jquery Library file -->
-    <script src="./js/Jquery3.4.1.min.js"></script>
+<!-- --------------------------- Footer ---------------------------------------- -->
 
-    <!-- --------- Owl-Carousel js ------------------->
-    <script src="./js/owl.carousel.min.js"></script>
+<footer class="footer">
+    <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                iure, autem nulla tenetur repellendus.</p>
+        </div>
+        <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+            <h2>Newsletter</h2>
+            <p>Stay update with our latest</p>
+            <div class="form-element">
+                <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+            <h2>Instagram</h2>
+            <div class="flex-row">
+                <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+            </div>
+            <div class="flex-row">
+                <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+            </div>
+        </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+            <h2>Follow us</h2>
+            <p>Let us be Social</p>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="rights flex-row">
+        <h4 class="text-gray">
+            Copyright ©2019 All rights reserved | made by
+            <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
+                Channel</a>
+        </h4>
+    </div>
+    <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+    </div>
+</footer>
 
-    <!-- ------------ AOS js Library  ------------------------- -->
-    <script src="./js/aos.js"></script>
-
-    <!-- Custom Javascript file -->
-    <script src="./js/main.js"></script>
-</body>
-
-</html>
+<!-- -------------x------------- Footer --------------------x------------------- -->
